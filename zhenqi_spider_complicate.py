@@ -33,8 +33,8 @@ def login():
         submit = wait.until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, '#login-button'))
         )
-        inputun.send_keys('zzzjxz')
-        inputpd.send_keys('zhenqi123')
+        inputun.send_keys('*****')
+        inputpd.send_keys('********')
         submit.click()
 
         wait.until(
